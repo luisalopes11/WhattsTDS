@@ -1,0 +1,26 @@
+.button {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.primary {
+  background: var(--wa-send);
+  color: #fff;
+}
+
+.secondary {
+  background: transparent;
+  color: var(--wa-accent);
+  border: 1px solid var(--wa-accent);
+}

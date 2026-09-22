@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.status {
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--wa-text-muted);
+  font-size: 15px;
+}

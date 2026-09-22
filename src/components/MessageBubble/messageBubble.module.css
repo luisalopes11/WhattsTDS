@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.mine {
+  justify-content: flex-end;
+}
+
+.theirs {
+  justify-content: flex-start;
+}
+
+.bubble {
+  max-width: 80%;
+  padding: 8px 10px 4px;
+  border-radius: 8px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.bubbleMine {
+  background: var(--wa-bubble-mine);
+  border-top-right-radius: 0;
+}
+
+.bubbleTheirs {
+  background: var(--wa-bubble-theirs);
+  border-top-left-radius: 0;
+}
+
+.text {
+  margin: 0 0 4px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--wa-text);
+  word-break: break-word;
+}
+
+.time {
+  display: block;
+  text-align: right;
+  font-size: 11px;
+  color: var(--wa-text-muted);
+}

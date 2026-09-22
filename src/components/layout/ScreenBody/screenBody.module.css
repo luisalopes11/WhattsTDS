@@ -1,0 +1,21 @@
+.body {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bodyChat {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: var(--wa-chat-bg);
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/*
+`flex: 1` faz o meio ocupar o espaço entre header e footer. 
+A rolagem fica **só** no body.
+*/
